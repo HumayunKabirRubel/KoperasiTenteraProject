@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KoperasiTentera.DTO", "Kope
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KoperasiTentera.DAL", "KoperasiTentera.DAL\KoperasiTentera.DAL.csproj", "{AE59B688-755E-40CE-A16B-CEC71AF88E8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoperasiTentera.Services", "KoperasiTentera.Services\KoperasiTentera.Services.csproj", "{F1E1BB54-5FFE-466B-AD0A-4FE54E8A8CEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KoperasiTentera.Services", "KoperasiTentera.Services\KoperasiTentera.Services.csproj", "{F1E1BB54-5FFE-466B-AD0A-4FE54E8A8CEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

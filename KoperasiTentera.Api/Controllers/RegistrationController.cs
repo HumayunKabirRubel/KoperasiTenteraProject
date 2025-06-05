@@ -90,6 +90,12 @@ namespace KoperasiTentera.Api.Controllers
             return BadRequest("PIN save failed");
 
         }
+
+        [HttpGet("test")]
+        public async Task<IActionResult> Test()
+        {
+            return Ok("Test Successful");
+        }
     }
 
 }
