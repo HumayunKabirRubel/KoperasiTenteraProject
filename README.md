@@ -86,11 +86,14 @@ KoperasiTenteraProject/
    git clone https://github.com/HumayunKabirRubel/KoperasiTenteraProject.git
    cd KoperasiTenteraProject
 
-2. Open in Visual Studio or use the .NET CLI:
+2. Set SQL Server User & Password in appsetting.json connectionstring
+
+3. Open in Visual Studio or use the .NET CLI:
+   Update-database (In PM console)
    dotnet build
    dotnet run
 
-3. Navigate to https://localhost:{port}/swagger to access the Swagger UI.
+4. Navigate to https://localhost:{port}/swagger to access the Swagger UI.
 
 📞 Contact
 Created by Humayun Kabir Rubel
