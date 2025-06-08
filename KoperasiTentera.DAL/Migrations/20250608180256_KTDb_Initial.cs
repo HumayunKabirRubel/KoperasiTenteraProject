@@ -4,10 +4,8 @@
 
 namespace KoperasiTentera.DAL.Migrations
 {
-    /// <inheritdoc />
-    public partial class KtDb_Initial : Migration
+    public partial class KTDb_Initial : Migration
     {
-        /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
@@ -28,7 +26,6 @@ namespace KoperasiTentera.DAL.Migrations
                 });
         }
 
-        /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(

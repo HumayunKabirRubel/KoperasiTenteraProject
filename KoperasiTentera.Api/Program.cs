@@ -5,13 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddDbContext<KTDbContext>(options => options.UseSqlServer(
-    builder.Configuration.GetConnectionString("KTDbContext"), sqlServerOptionsAction: sqlOptions =>
-    {
-        sqlOptions.EnableRetryOnFailure(
-            maxRetryCount: 3,
-            maxRetryDelay: TimeSpan.FromSeconds(3),
-            errorNumbersToAdd: null);
-    }));
+    builder.Configuration.GetConnectionString("KTDbRemoteContext")));
 //builder.Services.AddDbContext<KTDbContext>(options => options.UseInMemoryDatabase("KTDbContext"));
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 
